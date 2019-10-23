@@ -1,24 +1,24 @@
 ## Open-DLA-Performance-Profiler
 
-Performance profiling for neural network, deep learning and machine learning models on different openDLA architectures
+Portable (Windows) performance profiler for deep neural network. Give you the performance guideline of the model running on different openDLA architectures.
 
-The **openDLA** is based on [NVDLA](http://nvdla.org/index.html).
+The **openDLA** is based on the open project [**NVDLA**](http://nvdla.org/index.html).
 
 This tool is developed based on [**netron**](https://github.com/lutzroeder/netron).
 
 ### Key Words
-- Summary Table :  
+- Summary Table :  Summary of cycle counts, FPS of the model
   - MAC Utilization: average MAC utilization under aggressive FPS
   - Roofline Factor: the ratio of memory access cycles / total cycles
   - Conservative FPS: consider the memory access and computation is fully overlapped 
   - Aggressive FPS: consider the memory access and computation is fully interleaved
 
-- Traffic Table :
-  - IFM	: input feature maps
-  - OFM	: output feature maps
-  - WM : weights
+- Traffic Table : List of the memory traffic of each layer
+  - IFM	: input feature map
+  - OFM	: output feature map
+  - WM : weight matrix
 
-- Detail Table :
+- Detail Table : List of the fused layers based on openDLA
   - type	:  computation type
   - attributes	: 	fused layers
   - ch_in	: input channel number
@@ -38,11 +38,12 @@ This tool is developed based on [**netron**](https://github.com/lutzroeder/netro
 
 | Features | Free Version (here) | Commercial Version |
 | ------   | -----------  | ------------------ |
-| Layer Fuse Info  | V | V |
-| Performance Tablew/ DRAM          | V | V |
-| Performance Tablew/ SRAM + DRAM   | X | V |
-| DRAM/SRAM Policy | X | V |
-| DRAM/SRAM data footprint | X | V |
-| Configurable Freq./MEM BW | X | V |
+| Layer Fuse Info  | O | O |
+| Performance Table w/ DRAM          | O | O |
+| Performance Table w/ SRAM + DRAM   | X | O |
+| DRAM/SRAM access policy | X | O |
+| DRAM data footprint | O | O |
+| DRAM/SRAM data footprint | X | O |
+| Configurable Freq./MEM BW | X | O |
 | Model Format | Caffe | ONNX, TensorFlow, Caffe...|
-| Source Codes | X | V |
+| Source Codes | X | Available |
