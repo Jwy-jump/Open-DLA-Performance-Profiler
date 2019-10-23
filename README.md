@@ -38,11 +38,11 @@ This tool is developed based on [**netron**](https://github.com/lutzroeder/netro
 
 | Features | Free Version (here) | Commercial Version |
 | ------   | -----------  | ------------------ |
-| Layer Fuse Info  | o | o |
-| Performance Table DRAM only          | o | o |
-| Performance Table Hybrid memory (SRAM + DRAM)   | X | o |
-| DRAM/SRAM Policy | X | o |
-| DRAM/SRAM data footprint | X | o |
-| Configurable Freq./MEM BW | X | o |
+| Layer Fuse Info  | V | V |
+| Performance Tablew/ DRAM          | V | V |
+| Performance Tablew/ SRAM + DRAM   | X | V |
+| DRAM/SRAM Policy | X | V |
+| DRAM/SRAM data footprint | X | V |
+| Configurable Freq./MEM BW | X | V |
 | Model Format | Caffe | ONNX, TensorFlow, Caffe...|
-| Source Codes | X | o |
+| Source Codes | X | V |
