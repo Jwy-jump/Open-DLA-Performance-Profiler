@@ -6,6 +6,13 @@ The **openDLA** is based on the open project [**NVDLA**](http://nvdla.org/index.
 
 This tool is developed based on [**netron**](https://github.com/lutzroeder/netron).
 
+### Usage
+ 1. Load the DLA architecture from the directory, select some architectures
+ 2. Load a model description of Caffe prototxt format
+ 3. click [view] and select summary, traffic, and detail tables
+ 4. explore the raw data
+ 5. copy raw data to your preferal spreadsheet tool to plot trends
+
 ### Key Words
 - Summary Table :  Summary of cycle counts, FPS of the model
   - MAC Utilization: average MAC utilization under aggressive FPS
