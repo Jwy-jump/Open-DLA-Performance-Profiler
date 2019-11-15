@@ -1,4 +1,0 @@
-Inception/InceptionResNet_V2.h5 filter=lfs diff=lfs merge=lfs -text
-NASNet/NASNetMobile.h5 filter=lfs diff=lfs merge=lfs -text
-ResNet/** filter=lfs diff=lfs merge=lfs -text
-VGG/** filter=lfs diff=lfs merge=lfs -text
