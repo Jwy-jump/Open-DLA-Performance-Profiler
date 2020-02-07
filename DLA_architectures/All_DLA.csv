@@ -1,4 +1,4 @@
-Name,ConV Buffer Size (KB),MAC Number,Atomic-K,Atomic-C
+Name,Convolutional Buffer Size (KB),MAC Number,Atomic-K,Atomic-C
 DLA-64,128,64,8,8
 DLA-256,128,256,8,32
 DLA-512,512,512,16,32
